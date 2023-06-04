@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./drop.css";
 
-export default function Drop({
+function Drop({
   name,
   handleDrop,
   type = "image",
@@ -66,7 +66,7 @@ export default function Drop({
                   alt="dropimage"
                   width="80px"
                   height="50px"
-                  style={{ borderRadius: ".3rem" }}
+                  style={{ borderRadius: ".3rem",objectFit:"cover" }}
                 />
                 <p>{item?.name}</p>
                 <button
@@ -121,3 +121,6 @@ export default function Drop({
     </div>
   );
 }
+
+
+module.exports = Drop
