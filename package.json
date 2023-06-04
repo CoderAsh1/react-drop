@@ -1,6 +1,6 @@
 {
   "name": "react-drop-upload",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Drop and Upload Images with Ease",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
