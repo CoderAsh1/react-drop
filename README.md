@@ -2,12 +2,7 @@
 
 Drop and Upload Images with Ease
 
-Documentation and examples at https://react-dropzone.js.org. Source code at https://github.com/react-dropzone/react-dropzone/.
-
-
 ## Installation
-Install it from npm and include it in your React build process (using [Webpack](http://webpack.github.io/), [Browserify](http://browserify.org/), etc).
-
 ```bash
 npm install --save react-drop-upload
 ```
@@ -31,7 +26,7 @@ function App() {
     
     // Do what you want with the files
 
-    // For ex - 
+    // For ex 
 
     if(!multiple){
       let temp = [...state]
