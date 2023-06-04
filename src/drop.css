@@ -1,0 +1,40 @@
+.card{
+    background: rgba(236, 239, 236, 0.499);
+    margin: 1rem 0;
+    border-radius: .3rem;
+    padding: 1rem;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: inherit;
+    transition: .3s ease;
+    border: 2px dashed rgb(7, 153, 117);;
+  
+}
+.card-body:hover{
+    box-shadow: 3px 3px 10px rgb(205, 198, 198);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem;
+    background: rgba(236, 239, 236, 0.499);
+    margin: .3rem 0;
+    border-radius: .3rem;
+}
+.delete_btn , .upload_btn{
+    cursor: pointer;
+    border-radius: .3rem;
+    background-color: rgb(7, 153, 117);
+    color: white;
+    border: none;
+    padding: .4rem .6rem;
+}
